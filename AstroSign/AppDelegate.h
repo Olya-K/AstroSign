@@ -1,3 +1,11 @@
+//
+//  AppDelegate.h
+//  AstroSign
+//
+//  Created by Olga on 3/25/2014.
+//
+//
+
 /**  © 2014, Olga K. All Rights Reserved.
  *
  *  This file is part of the AstroSign project.
@@ -13,3 +21,11 @@
  *						Author : Olga K.
  *						Contact: Olga.K@live.ca
  */
+
+#import <UIKit/UIKit.h>
+
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
+
+@property (strong, nonatomic) UIWindow *window;
+
+@end
