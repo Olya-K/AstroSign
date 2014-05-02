@@ -1,3 +1,12 @@
+//
+//  SocketComm.h
+//  AstroSign
+//
+//  Created by Olga on 3/25/2014.
+//
+//
+
+
 /**  © 2014, Olga K. All Rights Reserved.
  *
  *  This file is part of the AstroSign project.
@@ -13,3 +22,21 @@
  *						Author : Olga K.
  *						Contact: Olga.K@live.ca
  */
+
+#import <Foundation/Foundation.h>
+
+
+/**
+ *  Utilities class that allows downloading of HTML, Images, etc.
+ *  Used for getting horoscope information from online.
+ */
+@interface Utilities : NSObject
+
+-(NSArray*) Horoscopes;
+
+-(NSMutableArray*) LoadHoroscopeImages;
+
+-(NSString*) GetHoroscopeInfo:(NSString*)sign;
+
+-(NSInteger) getSignByDate:(NSDate*) date;
+@end

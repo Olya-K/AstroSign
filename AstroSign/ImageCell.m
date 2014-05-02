@@ -1,3 +1,12 @@
+//
+//  ImageCell.m
+//  AstroSign
+//
+//  Created by Olga on 3/25/2014.
+//
+//
+
+
 /**  © 2014, Olga K. All Rights Reserved.
  *
  *  This file is part of the AstroSign project.
@@ -13,3 +22,17 @@
  *						Author : Olga K.
  *						Contact: Olga.K@live.ca
  */
+
+#import "ImageCell.h"
+
+@implementation ImageCell
+
+- (id)initWithFrame:(CGRect)frame
+{
+    self = [super initWithFrame:frame];
+    if (self) {
+    }
+    return self;
+}
+
+@end

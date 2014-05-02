@@ -1,3 +1,12 @@
+﻿//
+//  SignInfo.h
+//  AstroSign
+//
+//  Created by Olga on 2014-03-31.
+//
+//
+
+
 /**  © 2014, Olga K. All Rights Reserved.
  *
  *  This file is part of the AstroSign project.
@@ -13,3 +22,13 @@
  *						Author : Olga K.
  *						Contact: Olga.K@live.ca
  */
+
+#import <UIKit/UIKit.h>
+
+/**
+ *  View that displays Horoscope image with the daily horoscope.
+ */
+@interface SignInfo : UIViewController
+-(void)setLabelText: (NSString*) text;
+-(void)setImage: (UIImage*) image;
+@end

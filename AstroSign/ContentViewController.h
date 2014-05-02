@@ -1,3 +1,12 @@
+﻿//
+//  ContentViewController.h
+//  AstroSign
+//
+//  Created by Olga on 2014-03-31.
+//
+//
+
+
 /**  © 2014, Olga K. All Rights Reserved.
  *
  *  This file is part of the AstroSign project.
@@ -13,3 +22,9 @@
  *						Author : Olga K.
  *						Contact: Olga.K@live.ca
  */
+
+#import <UIKit/UIKit.h>
+
+@interface ContentViewController : UICollectionViewController
+
+@end

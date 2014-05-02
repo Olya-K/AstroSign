@@ -1,3 +1,11 @@
+//
+//  main.m
+//  AstroSign
+//
+//  Created by Olga on 3/25/2014.
+//
+//
+
 /**  © 2014, Olga K. All Rights Reserved.
  *
  *  This file is part of the AstroSign project.
@@ -13,3 +21,14 @@
  *						Author : Olga K.
  *						Contact: Olga.K@live.ca
  */
+
+#import <UIKit/UIKit.h>
+
+#import "AppDelegate.h"
+
+int main(int argc, char * argv[])
+{
+    @autoreleasepool {
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
+    }
+}
