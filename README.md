@@ -8,6 +8,6 @@ This application was developed with my teammate Brandon T. whom also holds right
 
 Screenshots:
 ------------
-![Screenshot1](Screenshots/1.png)
+![Screenshot1](Screenshots/1.PNG)
 ![Screenshot2](Screenshots/2.PNG)
 ![Screenshot3](Screenshots/3.PNG)
